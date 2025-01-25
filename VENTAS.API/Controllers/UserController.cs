@@ -34,7 +34,7 @@ namespace VENTAS.API.Controllers
         }
 
         //GET: api/Usuarios/1
-        [HttpGet("{Id}")]
+        [HttpGet("GetById{id:int}")]
         public JsonResult GetUserById(int id)
         {
             var user = _context.LoginUser.Find(id);

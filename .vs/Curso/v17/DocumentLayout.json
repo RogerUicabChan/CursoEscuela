@@ -74,8 +74,7 @@
               "RelativeToolTip": "VENTAS.API\\Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:20:46.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:20:46.611Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Curso\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T18:20:01.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:20:01.528Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "VENTAS.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T18:19:50.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:19:50.007Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "VENTAS.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:19:25.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:19:25.45Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "Curso\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:19:16.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:19:16.187Z"
             },
             {
               "$type": "Document",
@@ -139,8 +134,7 @@
               "RelativeToolTip": "Curso\\Controllers\\UsuariosController.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAAwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:19:06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:19:06Z"
             },
             {
               "$type": "Document",
@@ -150,7 +144,7 @@
               "RelativeDocumentMoniker": "VENTAS.API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "VENTAS.API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwDEAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T18:18:33.821Z",
               "EditorCaption": ""
@@ -165,8 +159,7 @@
               "RelativeToolTip": "VENTAS.API\\Context\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:17:47.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:17:47.609Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "VENTAS.API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:29:14.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:29:14.963Z"
             },
             {
               "$type": "Document",
@@ -204,8 +196,7 @@
               "RelativeToolTip": "Curso\\Context\\conexionBaseDatos.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAwwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:16:18.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:16:18.888Z"
             },
             {
               "$type": "Document",
@@ -217,8 +208,7 @@
               "RelativeToolTip": "VENTAS.API\\Context\\ConnectionBD.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:15:47.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T18:15:47.046Z"
             }
           ]
         }

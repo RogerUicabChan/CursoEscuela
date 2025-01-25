@@ -90,3 +90,4 @@ C:\Users\Roger Uicab\Documents\SistemaCurso\Curso\VENTAS.API\obj\Debug\net8.0\re
 C:\Users\Roger Uicab\Documents\SistemaCurso\Curso\VENTAS.API\obj\Debug\net8.0\VENTAS.API.pdb
 C:\Users\Roger Uicab\Documents\SistemaCurso\Curso\VENTAS.API\obj\Debug\net8.0\VENTAS.API.genruntimeconfig.cache
 C:\Users\Roger Uicab\Documents\SistemaCurso\Curso\VENTAS.API\obj\Debug\net8.0\ref\VENTAS.API.dll
+C:\Users\Roger Uicab\Documents\SistemaCurso\Curso\VENTAS.API\obj\Debug\net8.0\VENTAS.API.sourcelink.json
