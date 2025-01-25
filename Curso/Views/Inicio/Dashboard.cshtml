@@ -1,0 +1,7 @@
+﻿@using Microsoft.AspNetCore.Mvc;
+<div>
+    @{
+        var Usuario = TempData.Peek("Usuario") as string;
+    }
+    Bienvenido @Usuario
+</div>

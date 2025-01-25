@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<div class="text-center">
+    <form>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+</div>
+<div class="text-center">
+    <br />
+    <input type="button" value="Aceptar" id="btn_guardar">
+    <input type="button" value="Insertar" id="btn_insert" />
+</div>
+
+<script>
+    // function Guardar() {
+    //     var nombre = $("#fname").val();
+    //     var apellido = $("#lname").val();   
+
+    //     alert(nombre + " " + apellido);
+
+    // }
+
+    $("#btn_guardar").click(function () {
+        alert("guardar");
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Home")',
+            data: {'nombre': $("#fname").val(),
+                   'apellido': $("#lname").val()
+            },
+            success: function (result) {
+                $("#div1").html(result);
+            }
+        });
+    });
+
+    $("#btn_insert").click(function () {
+        alert("Insertado con éxito");
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Guardar","Home")',
+            data: {
+                'nombre': $("#fname").val(),
+                'apellido': $("#lname").val()
+            }
+        });
+    });
+</script>

@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\curso\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|solutionrelative:curso\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\curso\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|solutionrelative:curso\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\curso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|solutionrelative:curso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\curso\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|solutionrelative:curso\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\ventas.api\\context\\connectionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2193AB-9837-4D6D-9FC4-8452AED44D66}|VENTAS.API\\VENTAS.API.csproj|solutionrelative:ventas.api\\context\\connectionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|c:\\users\\roger uicab\\documents\\sistemacurso\\curso\\curso\\context\\conexionbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0177EED7-2FD2-4C6F-BD9C-7DB640E4EC89}|Curso\\Curso.csproj|solutionrelative:curso\\context\\conexionbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Models\\UserModel.cs",
+              "RelativeToolTip": "VENTAS.API\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:20:46.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\appsettings.json",
+              "RelativeDocumentMoniker": "Curso\\appsettings.json",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\appsettings.json",
+              "RelativeToolTip": "Curso\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T18:20:01.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "VENTAS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\appsettings.json",
+              "RelativeToolTip": "VENTAS.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T18:19:50.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Program.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Program.cs",
+              "RelativeToolTip": "VENTAS.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:19:25.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Program.cs",
+              "RelativeDocumentMoniker": "Curso\\Program.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Program.cs",
+              "RelativeToolTip": "Curso\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:19:16.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Curso\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Curso\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:19:06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "VENTAS.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:18:33.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VENTAS.API\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:17:47.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "VENTAS.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:29:14.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Curso\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Curso\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:18:39.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "conexionBaseDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Context\\conexionBaseDatos.cs",
+              "RelativeDocumentMoniker": "Curso\\Context\\conexionBaseDatos.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\Curso\\Context\\conexionBaseDatos.cs",
+              "RelativeToolTip": "Curso\\Context\\conexionBaseDatos.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:16:18.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionBD.cs",
+              "DocumentMoniker": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Context\\ConnectionBD.cs",
+              "RelativeDocumentMoniker": "VENTAS.API\\Context\\ConnectionBD.cs",
+              "ToolTip": "C:\\Users\\Roger Uicab\\Documents\\SistemaCurso\\Curso\\VENTAS.API\\Context\\ConnectionBD.cs",
+              "RelativeToolTip": "VENTAS.API\\Context\\ConnectionBD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:15:47.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

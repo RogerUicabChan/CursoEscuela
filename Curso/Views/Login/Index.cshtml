@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+ 
+@if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+<div class="text-center">
+    <form asp-action="Login" method="post">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario"><br>
+        <br>
+        <label for="contraseña">Password:</label>
+        <input type="password" id="contraseña" name="contraseña"><br>
+        <br>
+        <button type="submit">Iniciar Sesión</button><br>
+    </form>
+</div>
+

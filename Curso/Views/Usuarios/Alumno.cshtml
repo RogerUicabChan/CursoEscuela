@@ -1,0 +1,175 @@
+﻿@using Curso.Models
+
+@model List<AlumnoModel>
+
+<br />
+
+@* <h1>Bienvenido:</h1>
+@Model.Nombre @Model.Apellido_P *@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<table id="example" class="table table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Rol</th>
+            <th>Acciones</th>  
+        </tr>
+    </thead>
+    <tbody>
+            
+        @foreach (var alumno in Model)
+        {
+            <tr>
+                <td>@alumno.Nombre</td>
+                <td>@alumno.Apellido_P</td>
+                <td>@alumno.Rol</td>
+                <td class="text-center">
+                    <button class="btn btn-success bi bi-pencil-fill" data-id="@alumno.Id" onclick="cargarDatos(this)"></button>
+                    <button class="btn btn-danger bi bi-trash-fill" data-id="@alumno.Id" onclick="mostrarEliminarModal(this)"></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal de Edición -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Editar Alumno</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm">
+                    <input type="hidden" id="editId" />
+                    <div class="form-group">
+                        <label for="editNombre">Nombre:</label>
+                        <input type="text" class="form-control" id="editNombre" />
+                    </div>
+                    <div class="form-group">
+                        <label for="editApellido">Apellido:</label>
+                        <input type="text" class="form-control" id="editApellido" />
+                    </div>
+                    <div class="form-group">
+                        <label for="editRol">Rol:</label>
+                        <input type="text" class="form-control" id="editRol" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="guardarCambios()">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para borrar -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="mostrarEliminarModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="borrarDatos">Confirmar Eliminación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>¿Estás seguro de que deseas eliminar este registro?</p>
+                <input type="hidden" id="deleteId" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" onclick="eliminarRegistro()">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<script>
+    $(document).ready(function () {
+        new DataTable('#example');
+    });
+
+    function cargarDatos(button) {
+        const id = button.getAttribute('data-id');
+
+        // Realiza una solicitud AJAX para obtener los datos del alumno
+        fetch(`/Usuarios/GetAlumno/${id}`)
+            .then(response => response.json())
+            .then(data => {
+                // Carga los datos en el modal
+                document.getElementById('editId').value = data.id;
+                document.getElementById('editNombre').value = data.nombre;
+                document.getElementById('editApellido').value = data.apellido_p;
+                document.getElementById('editRol').value = data.rol;
+
+                // Muestra el modal
+                var editModal = new bootstrap.Modal(document.getElementById('editModal'));
+                editModal.show();
+            });
+    }
+
+    function guardarCambios() {
+        const id = document.getElementById('editId').value;
+        const nombre = document.getElementById('editNombre').value;
+        const apellido_p = document.getElementById('editApellido').value;
+        const rol = document.getElementById('editRol').value;
+
+        // Realiza una solicitud AJAX para guardar los cambios
+        fetch(`/Usuarios/EditAlumno/${id}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ id, nombre, apellido_p, rol })
+        })
+            .then(response => {
+                if (response.ok) {
+                    // Cierra el modal y recarga la tabla si es necesario
+                    var editModal = bootstrap.Modal.getInstance(document.getElementById('editModal'));
+                    editModal.hide();
+                    location.reload(); // Opcional, recarga la página para ver los cambios
+                } else {
+                    alert('Error al guardar los cambios');
+                }
+            });
+    }
+
+    // Modal del delete
+    function mostrarEliminarModal(button) {
+        const id = button.getAttribute('data-id');
+        document.getElementById('deleteId').value = id;
+
+        // Mostrar el modal
+        var deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+        deleteModal.show();
+    }
+
+    // Eliminar alumno
+    function eliminarRegistro() {
+        const id = document.getElementById('deleteId').value;
+
+        // Realizar la solicitud de eliminación
+        fetch(`/Usuarios/DeleteAlumno/${id}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => {
+                if (response.ok) {
+                    alert('Registro eliminado correctamente');
+                    location.reload(); // Recargar la página o la tabla
+                } else {
+                    alert('Error al eliminar el registro');
+                }
+            });
+    }
+
+
+</script>
