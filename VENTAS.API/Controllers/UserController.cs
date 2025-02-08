@@ -45,5 +45,43 @@ namespace VENTAS.API.Controllers
 
             return new JsonResult(user);
         }
+
+        [HttpPost("UpdateStudent")]
+        public IActionResult UpdateStudentById(StudentModel updatedAlumno) //si no funciona cambiar por DTO
+        {
+            var alumnoEdit = _context.Alumno.FirstOrDefault(a => a.Id == updatedAlumno.Id);
+
+            if (alumnoEdit == null)
+            {
+                //string[] error = { "No se puede convertir"};
+
+                return NotFound();
+            }
+
+            alumnoEdit.Nombre = updatedAlumno.Nombre;
+            alumnoEdit.Apellido_P = updatedAlumno.Apellido_P;
+            alumnoEdit.Rol = updatedAlumno.Rol;
+
+            _context.SaveChanges();
+            return Ok();
+
+        }
+
+        [HttpDelete("DeleteStudentById{id:int}")]
+        public IActionResult DeleteStudentById(int id)
+        {
+            var alumno = _context.Alumno.FirstOrDefault(a => a.Id == id);
+
+            if (alumno == null)
+            {
+                return NotFound();
+            }
+
+            _context.Alumno.Remove(alumno);
+            _context.SaveChanges();
+
+            return Ok();
+        }
+
     }
 }

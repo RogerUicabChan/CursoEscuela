@@ -13,5 +13,6 @@ namespace VENTAS.API.Context
         }
 
         public DbSet<UserModel> LoginUser { get; set; }
+        public DbSet<StudentModel> Alumno { get; set; }
     }
 }
